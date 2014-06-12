@@ -7,17 +7,22 @@ body {
 
 h1 {
 	margin: 0;
-	padding: 3% 0 7% 0;
+	padding: 3% 0 9% 0;
 	text-align: center;
 	font-size: 80px;
 	font-weight: lighter;
 	font-family: 'Lobster', cursive;
 }
 
+h2 {
+	font-weight: lighter;
+	font-style: italic;
+}
+
 p {
 	margin: 0;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 25px;
+	font-size: 22px;
 }
 
 .container-work {
@@ -40,10 +45,9 @@ p {
 
 #mudgauntlet-backend .image-left .image {
 	background-image: url("../images/mudgauntlet-backend.png");
-	float: left;
 	width: 100%;
 	height: inherit;
-	background-position: 50% 100%;
+	background-position: 50% 155%;
 }
 
 #mudgauntlet-backend .image-right {
@@ -70,6 +74,21 @@ p {
 	color: white;
 	
 	opacity: 0.7;
+}
+
+.highlight {
+	position: relative;
+	
+	top: 207px;
+	left: 0;
+	right: 0;
+	
+	width: 325px;
+	height: 46px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	background-color: yellow;
 }
 
 
