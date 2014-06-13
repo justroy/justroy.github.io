@@ -6,12 +6,15 @@ body {
 h1 {
 	margin: 0;
 	padding-top: 3%;
-	color: floralwhite;
+	color: black;
 	text-align: center;
 	font-size: 85px;
 	font-weight: lighter;
 	font-family: 'Lobster', cursive;
 }
+
+#mudgauntlet-backend h1 { color: floralwhite; }
+#intro h1 { color: black; margin-bottom: 5%; }
 
 h2 {
 	width: 40%;
@@ -51,13 +54,13 @@ p {
 	width: 100%;
 }
 
-#mudgauntlet-backend .image-left {
+#mudgauntlet-backend .task-image {
 	float: left;
 	width: 40%;
 	height: 480px;	
 }
 
-#mudgauntlet-backend .image-left .image {
+#mudgauntlet-backend .task-image .image {
 	background-image: url("../images/mudgauntlet-backend.png");
 	width: 100%;
 	height: inherit;
