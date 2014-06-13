@@ -1,7 +1,5 @@
 body {
-	padding: 0 2% 0 2%;
 	margin: 0;
-
 	background-color: white;
 }
 
@@ -10,43 +8,38 @@ h1 {
 	padding-top: 3%;
 	color: floralwhite;
 	text-align: center;
-	font-size: 80px;
+	font-size: 85px;
 	font-weight: lighter;
 	font-family: 'Lobster', cursive;
 }
 
 h2 {
-	width: 30%;
-	margin: 15px auto 0px auto;
+	width: 40%;
+	margin: 15px auto 5px auto;
 	padding-top: 5px;
-	border-top-style: dotted;
+	border-top-style: double;
 	border-top-width: 4px;
 	border-top-color: black;
 	
 	color: floralwhite;
 	font-style: italic;
 	text-align: center;
+	font-weight: lighter;
+	font-size: 24px;
 }
 
 p {
 	margin: 0;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 22px;
 }
 
-.container-work {
-	background-color: gray;
-	width: 100%;
-	height: 800px;
-}
-
 .container-experience {
-	margin: 0 auto;
+	margin: 0 2% 0 2%;
 	background-color: lightslategrey;
-	height: 400px;
 }
 
-.imgcont {
+.tool-icon {
 	display: block;
 	float: left;
 	width: 50px;
@@ -54,14 +47,14 @@ p {
 	padding: 2px;
 }
 
-.imgcont img {
+.tool-icon img {
 	width: 100%;
 }
 
 #mudgauntlet-backend .image-left {
 	float: left;
 	width: 40%;
-	height: 500px;	
+	height: 480px;	
 }
 
 #mudgauntlet-backend .image-left .image {
@@ -74,7 +67,7 @@ p {
 #mudgauntlet-backend .image-right {
 	float: left;
 	width: 60%;
-	height: 500px;
+	height: 480px;
 	background-image: url("http://placekitten.com/600/2000");
 	position: relative;
 }
@@ -100,12 +93,12 @@ p {
 .highlight {
 	position: relative;
 	
-	top: 207px;
+	top: 170px;
 	left: 0;
 	right: 0;
 	
-	width: 325px;
-	height: 46px;
+	width: 340px;
+	height: 59px;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -114,35 +107,6 @@ p {
 
 .tools {
 	display: table;
-	margin: 0 auto 7%;
+	margin: 0 auto;
+	padding-bottom: 1%;
 }
-
-.hsContainer {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    opacity: 0;
-}
-.hsContent {
-    max-width: 450px;
-    margin: -150px auto 0 auto;
-    display: table-cell;
-    vertical-align: middle;
-    color: #ebebeb;
-    padding: 0 8%;
-    text-align: center
-}
-.bcg {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 300px;
-    width: 100%;
-}
-/* Slide 1 */
-#slide-1 .bcg {background-image:url("http://placekitten.com/300/300")}
-#slide-3 .bcg {background-image:url("http://placekitten.com/300/300")}
