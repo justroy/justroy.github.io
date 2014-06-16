@@ -6,7 +6,6 @@ body {
 h1 {
 	margin: 0;
 	padding-top: 3%;
-	color: black;
 	text-align: center;
 	font-size: 85px;
 	font-weight: lighter;
@@ -14,17 +13,23 @@ h1 {
 }
 
 #intro h1 { color: black; margin-bottom: 5%; }
-#mudgauntlet-backend h1 { color: floralwhite; }
+
+#mudgauntlet h1 { color: floralwhite; }
+#mudgauntlet h2 { color: floralwhite; }
+#mudgauntlet.container-experience { background-color: lightslategrey; }
+
+#sotheresthis h1 { color: black; }
+#sotheresthis h2 { color: black; border-top-color: chocolate; }
+#sotheresthis.container-experience { background-color: antiquewhite; }
 
 h2 {
 	width: 40%;
 	margin: 15px auto 5px auto;
 	padding-top: 5px;
-	border-top-style: double;
+	border-top-style: dashed;
 	border-top-width: 4px;
-	border-top-color: black;
+	border-top-color: black;	
 	
-	color: floralwhite;
 	font-style: italic;
 	text-align: center;
 	font-weight: lighter;
@@ -39,7 +44,6 @@ p {
 
 .container-experience {
 	margin: 0 2% 0 2%;
-	background-color: lightslategrey;
 }
 
 .tool-icon {
@@ -134,7 +138,9 @@ p {
 	padding-bottom: 1%;
 }
 
-@media (min-width/* : 801px) {
+
+/*
+@media (min-width : 801px) {
 	.mud1 { width: 40%; }
 	
 	.mud2 { width: 60%; }
