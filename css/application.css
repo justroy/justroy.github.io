@@ -13,8 +13,8 @@ h1 {
 	font-family: 'Lobster', cursive;
 }
 
-#mudgauntlet-backend h1 { color: floralwhite; }
 #intro h1 { color: black; margin-bottom: 5%; }
+#mudgauntlet-backend h1 { color: floralwhite; }
 
 h2 {
 	width: 40%;
@@ -54,26 +54,48 @@ p {
 	width: 100%;
 }
 
+.task { height: 480px; }
+
+.column { float: left; height: inherit; }
+.container { width: 100%; height: inherit; }
+
+.mud1 { width: 40%; }
+.mud2 { width: 60%; }
+.mud3 { width: 50%; }
+.mud4 { width: 50%; }
+
+.task-image { position: relative; }
+
+.mud1 .task-image { background-image: url("../images/mudgauntlet-backend.png"); background-position: 50% 155%; }
+.mud2 .task-image { background-image: url("http://placekitten.com/726/2000"); }
+.mud4 .task-image { background-image: url("http://placekitten.com/726/480"); }
+
+/* .task {
+	height: 480px;
+}
+
 #mudgauntlet-backend .task-image {
 	float: left;
 	width: 40%;
-	height: 480px;	
+	height: inherit;	
 }
 
-#mudgauntlet-backend .task-image .image {
+#mudgauntlet-backend .task-image .mud1 {
 	background-image: url("../images/mudgauntlet-backend.png");
 	width: 100%;
 	height: inherit;
 	background-position: 50% 155%;
-}
+} */
 
-#mudgauntlet-backend .image-right {
+
+/* 
+#mudgauntlet-backend .mud2 {
 	float: left;
 	width: 60%;
 	height: 480px;
 	background-image: url("http://placekitten.com/600/2000");
 	position: relative;
-}
+} */
 
 .description {
 	position: absolute;
@@ -113,3 +135,56 @@ p {
 	margin: 0 auto;
 	padding-bottom: 1%;
 }
+
+@media (min-width/* : 801px) {
+	.mud1 { width: 40%; }
+	
+	.mud2 { width: 60%; }
+}
+
+@media (max-width: 800px) {
+	.mud1 { width: 100%; height: 250px; }
+	.mud1 img { 
+		top: -90px;
+		position: absolute; 
+	}
+	
+	.mud2 { width: 100%; }
+}
+	
+.gallery {
+	width: 100%;
+	height: 300px;
+	display: table;
+}
+
+.thumbnail {
+	float: left;
+    position:relative;
+}
+
+.mud2 { }
+
+.thumbnail img {
+	width: 100%;
+}
+
+.passage {
+	z-index: 10;
+    position: absolute;
+}
+
+.mud1 .passage { 
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	width: 80%;
+	padding: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	
+	background-color: black;
+	color: white;
+} */
