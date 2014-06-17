@@ -71,6 +71,7 @@ p {
 .mud1 { width: 40%; }
 .mud2 { width: 60%; }
 .mud3 { width: 50%; }
+.mud3 h1 { padding-top: 13%; }
 .mud4 { width: 50%; }
 
 .mud1 .task-image { background-image: url("../images/mudgauntlet-backend.png"); background-position: 50% 155%; }
