@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background-color: white;
+	background-color: gainsboro;
 }
 
 h1 {
@@ -76,41 +76,15 @@ p {
 
 .mud1 .task-image { background-image: url("../images/mudgauntlet-backend.png"); background-position: 50% 155%; }
 .mud2 .task-image { background-image: url("http://placekitten.com/726/2000"); }
-.mud4 .task-image { background-image: url("http://placekitten.com/726/480"); }
+.mud4 .task-image { background-image: url("../images/admin.png"); background-size: 118%; }
 
 .sothere1 { width: 50%; position: relative; }
 .sothere2 { width: 50%; position: relative; }
 
-.sothere1 .task-image { background-image: url("http://placekitten.com/726/480"); }	
-.sothere2 .task-image { background-image: url("http://placekitten.com/726/480"); }
+.sothere1 .task-image { background-image: url("../images/sothere.jpg"); background-size: 125%; background-position: 50% 0%; }	
+.sothere2 .task-image { background-image: url("../images/sothere.jpg"); background-size: 125%; background-position: 50% 0%; }
 
-/* .task {
-	height: 480px;
-}
-
-#mudgauntlet-backend .task-image {
-	float: left;
-	width: 40%;
-	height: inherit;	
-}
-
-#mudgauntlet-backend .task-image .mud1 {
-	background-image: url("../images/mudgauntlet-backend.png");
-	width: 100%;
-	height: inherit;
-	background-position: 50% 155%;
-} */
-
-
-/* 
-#mudgauntlet-backend .mud2 {
-	float: left;
-	width: 60%;
-	height: 480px;
-	background-image: url("http://placekitten.com/600/2000");
-	position: relative;
-} */
-
+.sothere1 .description { background-color: white; color: black; opacity: 0.8; }
 .description {
 	position: absolute;
 	bottom: 0;
