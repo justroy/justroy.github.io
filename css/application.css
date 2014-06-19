@@ -42,8 +42,14 @@ p {
 	font-size: 22px;
 }
 
+.container-main {
+	max-width: 1366px;
+	margin: 0 auto 0 auto;
+	padding: 0 2% 0 2%;
+}
+
 .container-experience {
-	margin: 0 2% 0 2%;
+	/* margin: 0 2% 0 2%; */
 }
 
 .tools {
@@ -64,7 +70,7 @@ p {
 
 .task { height: 480px; }
 
-.column { float: left; height: inherit; max-width: 1000px; }
+.column { float: left; height: inherit; }
 .container { width: 100%; height: inherit; }
 .task-image { position: relative; }
 
@@ -75,7 +81,7 @@ p {
 .mud4 { width: 60%; }
 
 .mud1 .task-image { background-image: url("../images/code.png"); }
-.mud2 .task-image { background-image: url("../images/mudgauntlet-backend.png"); }
+.mud2 .task-image { background-image: url("../images/mudgauntlet-backend.png"); background-position: 50% 140%;}
 .mud4 .task-image { background-image: url("../images/admin.png"); background-size: 118%; }
 
 .sothere1 { width: 50%; position: relative; }
