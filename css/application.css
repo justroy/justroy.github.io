@@ -80,8 +80,8 @@ p {
 .mud3 h1 { padding-top: 13%; }
 .mud4 { width: 60%; }
 
-.mud1 .task-image { background-image: url("../images/code.png"); }
-.mud2 .task-image { background-image: url("../images/mudgauntlet-backend.png"); background-position: 50% 140%;}
+.mud1 .task-image { background-image: url("../images/code.png"); background-size: 100%; }
+.mud2 .task-image { background-image: url("../images/mudgauntlet-backend.png"); background-position: 50% 140%; }
 .mud4 .task-image { background-image: url("../images/admin.png"); background-size: 118%; }
 
 .sothere1 { width: 50%; position: relative; }
