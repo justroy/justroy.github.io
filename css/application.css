@@ -13,6 +13,7 @@ h1 {
 }
 
 #intro h1 { color: black; margin-bottom: 5%; }
+#intro.container-experience { background-color: white; }
 
 #mudgauntlet h1 { color: floralwhite; }
 #mudgauntlet h2 { color: floralwhite; }
@@ -24,7 +25,7 @@ h1 {
 
 h2 {
 	width: 40%;
-	margin: 10px auto 5px auto;
+	margin: 10px auto 15px auto;
 	padding-top: 5px;
 	border-top-style: dashed;
 	border-top-width: 4px;
@@ -39,7 +40,7 @@ h2 {
 p {
 	margin: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 22px;
+	font-size: 21px;
 }
 
 .container-main {
@@ -90,8 +91,6 @@ p {
 .sothere1 .task-image { background-image: url("../images/sothere.jpg"); background-size: 125%; background-position: 50% 0%; }	
 .sothere2 .task-image { background-image: url("../images/sothere.jpg"); background-size: 125%; background-position: 50% 0%; }
 
-.sothere1 .description { background-color: white; color: black; opacity: 0.8; }
-
 .description {
 	position: absolute;
 	bottom: 0;
@@ -107,7 +106,7 @@ p {
 	background-color: black;
 	color: white;
 	
-	opacity: 0.7;
+	background: rgba(0, 0, 0, 0.6);
 }
 
 .highlight {
