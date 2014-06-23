@@ -4,10 +4,9 @@ body {
 }
 
 h1 {
-	margin: 0;
-	padding-top: 3%;
+	margin: 0 0 5% 0;
 	text-align: left;
-	font-size: 45px;
+	font-size: 55px;
 	font-weight: lighter;
 	font-family: 'Lobster', cursive;
 }
@@ -92,13 +91,18 @@ p {
 .sothere1 .task-image { background-image: url("../images/sothere.jpg"); background-size: 125%; background-position: 50% 0%; }	
 .sothere2 .task-image { background-image: url("../images/sothere.jpg"); background-size: 125%; background-position: 50% 0%; }
 
-.stcc1 { width: 40%; }
-.stcc2 { width: 60%; }
+/* .stcc1 { width: 40%; } */
+/* .stcc2 { width: 60%; } */
 .stccimg1.task-image { background-image: url("../images/mudgauntlet-backend.png"); background-position: 50% 140%; }
 .stccimg2.task-image { background-image: url("../images/code.png"); background-size: 100%; }
 
+.image { width: 60%; }
+
 .description {
-	position: absolute;
+	width: 37%;
+	padding-left: 3%;
+
+/* 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -112,7 +116,7 @@ p {
 	background-color: black;
 	color: white;
 	
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.6); */
 }
 
 .highlight {
