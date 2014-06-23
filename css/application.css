@@ -4,11 +4,12 @@ body {
 }
 
 h1 {
-	margin: 0 0 5% 0;
+	margin: 0 0 10% 0;
 	text-align: left;
-	font-size: 55px;
+	font-size: 60px;
 	font-weight: lighter;
 	font-family: 'Lobster', cursive;
+	line-height: 100%;
 }
 
 #intro h1 { color: black; margin-bottom: 5%; }
@@ -47,7 +48,7 @@ p {
 }
 
 .container-main {
-	max-width: 1100px;
+	max-width: 1000px;
 	height: 350px;
 	margin: 0 auto 0 auto;
 	/* padding: 0 2% 0 2%; */
@@ -88,13 +89,13 @@ p {
 .sothere1 { width: 50%; position: relative; }
 .sothere2 { width: 50%; position: relative; }
 
-.sothere1 .task-image { background-image: url("../images/sothere.jpg"); background-size: 125%; background-position: 50% 0%; }	
+.stt-image { background-image: url("../images/sothere.jpg"); }	
 .sothere2 .task-image { background-image: url("../images/sothere.jpg"); background-size: 125%; background-position: 50% 0%; }
 
 /* .stcc1 { width: 40%; } */
 /* .stcc2 { width: 60%; } */
-.stccimg1.task-image { background-image: url("../images/mudgauntlet-backend.png"); background-position: 50% 140%; }
-.stccimg2.task-image { background-image: url("../images/code.png"); background-size: 100%; }
+.img-stcc1 { background-image: url("../images/mudgauntlet-backend.png"); background-position: 50% 140%; }
+.img-stcc2 { background-image: url("../images/code.png"); background-size: 100%; }
 
 .image { width: 60%; }
 
